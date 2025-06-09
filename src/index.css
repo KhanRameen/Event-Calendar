@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  font-family: "Monstserrat", sans-serif;
+  outline: none;
+  box-sizing: border-box;
+
+}
+
+html{
+  font-size: 62.5%; 
+  /* Setting html font size to 62.5 makes the rem calculation easier as 1rem becomes equalt to 10px (origninal 16px) */
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(225, 231, 254);
+  display:grid;
+  place-items: center;
+  perspective: 100rem;  /*This lets you work with 3Deffect for depth likes shadows*/
+}
