@@ -2,7 +2,7 @@
     width: 70%;
     min-width: 90vmin;
     /*The min size of screen i.e total height in laptop and total widht in smartphones*/
-    aspect-ratio: 3.5/2;
+    aspect-ratio: 3/2;
     /*the ration of width:height */
     background-color: whitesmoke;
     padding: 3rem;
@@ -171,10 +171,6 @@
     row-gap: 1rem;
     border-radius: 2%;
     padding: 3rem;
-
-
-    display: none;
-
 }
 
 .timeinput {

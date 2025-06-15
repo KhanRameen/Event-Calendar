@@ -1,3 +1,7 @@
+# ToDo:
+- sort by time asswell
+
+
 # Setup:
 
 - npm create vite@latest ./
@@ -13,3 +17,5 @@
 
 - Add in index.css the CSS that is for a webwide configuration like fonts margin padding alignments bg-color etc.
 - Add CSS in the components for the design. for our case its calendar.css
+
+
